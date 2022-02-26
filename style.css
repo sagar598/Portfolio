@@ -20,7 +20,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #222121;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -100,17 +100,16 @@ section .title::after {
 /* navbar styling */
 
 .navbar {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease;
+    background: black;
 }
 
 .navbar.sticky {
     padding: 15px 0;
-    background: rgb(167, 83, 83);
+    background: rgb(248, 248, 248);
 }
 
 .navbar .max-width {
@@ -126,7 +125,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-    color: crimson;
+    color: rgb(10, 1, 2);
     transition: all 0.3s ease;
 }
 
@@ -153,7 +152,7 @@ section .title::after {
 }
 
 .navbar.sticky .menu li a:hover {
-    color: #fff;
+    color: rgb(240, 14, 14);
 }
 
 
